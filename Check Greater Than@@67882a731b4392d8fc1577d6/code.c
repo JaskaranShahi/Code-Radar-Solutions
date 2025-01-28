@@ -6,10 +6,10 @@ void main()
  scanf("%d",&b);
  if(a>b)
  {
-    print("True");
+    printf("True");
  }
 else
 {
-    print("False");
+    printf("False");
 }
 }
