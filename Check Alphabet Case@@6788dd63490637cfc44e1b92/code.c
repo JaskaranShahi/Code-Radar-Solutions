@@ -9,7 +9,7 @@ void main()
     }
     else if(islower(c))
     {
-        printf("Loewrcase");
+        printf("Lowercase");
     }
     else
     {
