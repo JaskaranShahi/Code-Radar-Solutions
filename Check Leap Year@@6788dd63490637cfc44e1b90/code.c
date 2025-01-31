@@ -2,7 +2,7 @@
 void main()
 {
     int n;
-    scanf("%d",&a);
+    scanf("%d",&n);
     if((n%4)==0)
     {
         if((n%100)==0)
