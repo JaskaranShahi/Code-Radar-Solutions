@@ -7,7 +7,7 @@ void main()
     {
         printf("Positive");
     }
-    if(n>0)
+    if(n<0)
     {
         printf("Negative");
     }
