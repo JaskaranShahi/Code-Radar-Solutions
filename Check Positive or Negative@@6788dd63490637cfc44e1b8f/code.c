@@ -11,4 +11,8 @@ void main()
     {
         printf("Negative");
     }
+    if(n==0)
+    {
+        printf("Zero");
+    }
 }
