@@ -13,6 +13,6 @@ void main()
     }
     if(cp==sp)
     {
-        printf("N o Profit No Loss");
+        printf("No Profit No Loss");
     }
 }
