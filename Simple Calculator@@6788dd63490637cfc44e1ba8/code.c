@@ -6,8 +6,6 @@ void main()
     char c;
     scanf("%c", &c);
     int g;
-    int h;
-    h=a*b;
     switch(c)
     {
         case '+':
@@ -24,8 +22,8 @@ void main()
         }
         case '*':
         {
-            
-            printf("%d",h);
+            g=a*b;
+            printf("%d",g);
             break;
         }
         case '/':
