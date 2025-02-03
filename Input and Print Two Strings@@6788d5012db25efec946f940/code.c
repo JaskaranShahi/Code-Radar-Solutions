@@ -2,7 +2,7 @@
 #include <string.h>
 void main()
 {
-    char a[50],char b[50],char c[100];
+    char a[50],b[50],c[100];
     scanf("%s %s",&a,&b);
     strcpy(c,a);
     strcat(c," and ");
