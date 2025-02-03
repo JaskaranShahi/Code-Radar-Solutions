@@ -14,7 +14,7 @@ void main()
             printf("Constant");
         }
     }
-    elif(isdigit(c))
+    else if(isdigit(c))
     {
         printf("Digit");
     }
