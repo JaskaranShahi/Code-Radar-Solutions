@@ -6,7 +6,7 @@ void main()
     char c;
     scanf("%c", &c);
     int g;
-    switch(c):
+    switch(c)
     {
         case '+':
         {
