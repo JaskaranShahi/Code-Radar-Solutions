@@ -3,9 +3,17 @@ void main()
 {
     char c;
     scanf("%c",&c);
-    if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
+    if(isalpha(c))
     {
-        printf("Vowel");
+        if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
+        {
+            printf("Vowel");
+        }
+        else
+        {
+            printf("Constant");
+        }
     }
-    
+
+
 }
