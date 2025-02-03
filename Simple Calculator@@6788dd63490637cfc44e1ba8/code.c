@@ -10,23 +10,20 @@ int main()
     switch(c)
     {
         case '+':
-            g=a+b;
-            printf("%d",g);
+            printf("%d",a+b);
             break;
         
         case '-':
-            g=a-b;
-            printf("%d",g);
+            printf("%d",a-b);
             break;
 
         case '*':
-            g=a*b;
-            printf("%d",g);
+            printf("%d",a*b);
             break;
 
         case '/':
-            g=a/b;
-            printf("%d",g);
+            
+            printf("%d",a/b);
             break;
         
         default:
