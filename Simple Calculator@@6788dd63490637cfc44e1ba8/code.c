@@ -33,9 +33,9 @@ void main()
             break;
         }
         default:
-        {
-            printf("error");        
-        }
+            printf("error");
+            break;      
+        
     }
 
 }
