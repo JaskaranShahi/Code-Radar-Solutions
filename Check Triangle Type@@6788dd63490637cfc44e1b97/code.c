@@ -3,13 +3,6 @@ void main()
 {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a==b)
-    {
-        if(b==c)
-        {
-            printf("Equilateral");
-        }
-    }
     if(a+b>c && a+c>c && b+c>a)
     {
         if(a==b && b==c)
