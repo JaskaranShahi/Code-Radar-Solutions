@@ -11,20 +11,23 @@ void main()
         g=a+b;
         printf("%d",g);
     }
-    if(c=='-')
+     else if(c=='-')
     {
         g=a-b;
         printf("%d",g);
     }
-    if(c=='*')
+    else if(c=='*')
     {
         g=a*b;
         printf("%d",g);
     }
-    if(c=='/')
+    else if(c=='/')
     {
         g=a/b;
         printf("%d",g);
+    }
+    else{
+        printf("Error");
     }
 
 }
