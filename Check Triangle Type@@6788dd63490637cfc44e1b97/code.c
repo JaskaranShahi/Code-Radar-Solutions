@@ -10,8 +10,8 @@ void main()
             printf("Equilateral");
         }
     }
-     else if(a+b>c && a+c>c && b+c>a)
-     {
+    else if(a+b>c && a+c>c && b+c>a)
+    {
         if(a==b || b==c || c==a )
         {
             printf("Isosceles");
@@ -20,5 +20,5 @@ void main()
         {
             printf("Scalene");
         }
-     }
+    }
 }
