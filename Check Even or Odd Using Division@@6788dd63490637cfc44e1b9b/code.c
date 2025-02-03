@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main
 {
-    int a;
-    scanf("%d",&a);
-    if(a%2=0)
+    int A;
+    scanf("%d",&A);
+    if(A%2==0)
     {
         printf("Even");
     }
