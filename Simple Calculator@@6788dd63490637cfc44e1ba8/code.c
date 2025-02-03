@@ -4,7 +4,7 @@ void main()
     int a,b;
     scanf("%d %d",&a,&b);
     char c;
-    scanf("%c", &c);
+    scanf(" %c", &c);
     int g;
     switch(c):
     {
