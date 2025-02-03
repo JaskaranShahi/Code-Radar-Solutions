@@ -62,12 +62,12 @@ void main()
         }
         case 12:
         {
-            printf("30");
+            printf("31");
             break;
         }
         default:
         {
-            printf("no");
+            printf("Invalid month");
         }
     }
 
