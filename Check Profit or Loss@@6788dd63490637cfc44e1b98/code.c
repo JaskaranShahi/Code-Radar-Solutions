@@ -11,4 +11,8 @@ void main()
     {
         printf("Profit");
     }
+    if(cp==sp)
+    {
+        printf("N o Profit No Loss");
+    }
 }
