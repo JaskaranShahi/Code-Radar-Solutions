@@ -19,7 +19,7 @@ void main()
     {
         if(b==c)
         {
-            printf("%d",c)
+            printf("%d",c);
         }
     }
 }
