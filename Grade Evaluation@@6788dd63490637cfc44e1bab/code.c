@@ -19,7 +19,7 @@ void main()
     {
         printf("Below Average");
     }
-    else if(c=='E')
+    else if(c=='F')
     {
         printf("Fail");
     }
