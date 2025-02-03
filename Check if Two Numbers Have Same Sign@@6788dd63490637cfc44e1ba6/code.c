@@ -11,11 +11,11 @@ void main()
     {
         printf("Same Sign");
     }
-    if(a<0 and b>0)
+    if(a<0 && b>0)
     {
         printf("Different Sign");
     }
-    if(a>0 and b<0)
+    if(a>0 && b<0)
     {
         printf("Different Sign");
     }
