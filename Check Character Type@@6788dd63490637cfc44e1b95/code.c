@@ -14,6 +14,14 @@ void main()
             printf("Constant");
         }
     }
+    elif(isdigit(c))
+    {
+        printf("Digit");
+    }
+    else
+    {
+        printf("Special Character");
+    }
 
 
 }
