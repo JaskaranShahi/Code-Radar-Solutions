@@ -34,7 +34,7 @@ void main()
         }
         default:
         {
-            printf("Error");        
+            printf("error");        
         }
     }
 
