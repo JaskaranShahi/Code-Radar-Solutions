@@ -4,7 +4,7 @@ void main()
     int a,b;
     scanf("%d %d",&a,&b);
     char c;
-    scanf(" %u", &c);
+    scanf("%c", &c);
     int g;
     switch(c):
     {
@@ -34,7 +34,8 @@ void main()
         }
         default:
         {
-            printf("Error");        }
+            printf("Error");        
+        }
     }
 
 }
