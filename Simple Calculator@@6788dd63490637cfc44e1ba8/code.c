@@ -3,7 +3,8 @@ void main()
 {
     char c;
     scanf("%c", &c);
-    int a,b,g;
+    int a,b;
+    int g;
     scanf("%d %d",&a,&b);
     switch(c):
     {
