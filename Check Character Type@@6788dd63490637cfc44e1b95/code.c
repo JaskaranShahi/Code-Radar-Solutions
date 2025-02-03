@@ -7,20 +7,20 @@ void main()
     {
         if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
         {
-            printf("Vowel");
+            printf("Vowel\n");
         }
         else
         {
-            printf("Constant");
+            printf("Constant\n");
         }
     }
     else if(isdigit(c))
     {
-        printf("Digit");
+        printf("Digit\n");
     }
     else
     {
-        printf("Special Character");
+        printf("Special Character\n");
     }
 
 
