@@ -12,7 +12,7 @@ void main()
         }
         else
         {
-            printf("Constant\n");
+            printf("Consonant\n");
         }
     }
     else if(isdigit(c))
