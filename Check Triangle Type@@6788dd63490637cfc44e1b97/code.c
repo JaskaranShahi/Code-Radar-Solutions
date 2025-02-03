@@ -10,9 +10,13 @@ void main()
             printf("Equilateral");
         }
     }
-    else if(a+b>c && a+c>c && b+c>a)
+    if(a+b>c && a+c>c && b+c>a)
     {
-        if(a==b || b==c || c==a )
+        if(a==b && b==c)
+        {
+            printf("Equilateral");
+        }
+        else if(a==b || b==c || c==a )
         {
             printf("Isosceles");
         }
