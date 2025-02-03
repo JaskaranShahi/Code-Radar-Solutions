@@ -4,27 +4,27 @@ void main()
     char c;
     scanf("%c",&c);
     int a,b;
-    int d;
+    int g;
     scanf("%d %d",&a,&b);
     if(c=='+')
     {
-        d=a+b;
-        printf("%d",d);
+        g=a+b;
+        printf("%d",g);
     }
     if(c=='-')
     {
-        d=a-b;
-        printf("%d",d);
+        g=a-b;
+        printf("%d",g);
     }
     if(c=='*')
     {
-        d=a*b;
-        printf("%d",d);
+        g=a*b;
+        printf("%d",g);
     }
     if(c=='/')
     {
-        d=a/b;
-        printf("%d",d);
+        g=a/b;
+        printf("%d",g);
     }
 
 }
