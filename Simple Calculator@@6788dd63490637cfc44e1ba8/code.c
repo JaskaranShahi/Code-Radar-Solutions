@@ -9,29 +9,25 @@ void main()
     switch(c)
     {
         case '+':
-        {
             g=a+b;
             printf("%d",g);
             break;
-        }
+        
         case '-':
-        {
             g=a-b;
             printf("%d",g);
             break;
-        }
+
         case '*':
-        {
             g=a*b;
             printf("%d",g);
             break;
-        }
+
         case '/':
-        {
             g=a/b;
             printf("%d",g);
             break;
-        }
+        
         default:
             printf("error");
             break;      
