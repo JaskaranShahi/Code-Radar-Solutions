@@ -13,7 +13,7 @@ void main()
     }
     if(a<0 and b>0)
     {
-        printf("Different Sign")
+        printf("Different Sign");
     }
     if(a>0 and b<0)
     {
