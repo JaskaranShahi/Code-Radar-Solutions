@@ -9,9 +9,9 @@ void main()
         {
             if((n%400)==0)
             {
-                printf("Leap Year");
+                printf("Not Leap Year");
             }
-        printf("Not a Leap Year");
+        printf("Leap Year");
     
         }
         printf("Leap Year");
