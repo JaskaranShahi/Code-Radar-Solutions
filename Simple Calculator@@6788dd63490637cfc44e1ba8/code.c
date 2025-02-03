@@ -33,6 +33,9 @@ void main()
             printf("%d",g);
             break;
         }
+        default:
+        {
+            printf("Error");        }
     }
 
 }
