@@ -6,22 +6,22 @@ void main()
     int a,b;
     int g;
     scanf("%d %d",&a,&b);
-    if(c=='+')
+    if(c== '+')
     {
         g=a+b;
         printf("%d",g);
     }
-     else if(c=='-')
+     else if(c== '-')
     {
         g=a-b;
         printf("%d",g);
     }
-    else if(c=='*')
+    else if(c== '*')
     {
         g=a*b;
         printf("%d",g);
     }
-    else if(c=='/')
+    else if(c== '/')
     {
         g=a/b;
         printf("%d",g);
