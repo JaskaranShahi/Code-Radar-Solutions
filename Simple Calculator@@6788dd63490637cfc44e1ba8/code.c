@@ -1,5 +1,6 @@
 #include <stdio.h>
-void main()
+#include <ctype.h>
+int main()
 {
     int a,b;
     scanf("%d %d",&a,&b);
@@ -31,7 +32,7 @@ void main()
         default:
             printf("error");
             break;      
-        
     }
+    return 0;
 
 }
