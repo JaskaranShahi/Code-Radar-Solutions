@@ -2,7 +2,7 @@
 void main()
 {
     char c;
-    scanf("%c",&c);
+    scanf("%c", &c);
     int a,b;
     int g;
     scanf("%d %d",&a,&b);
@@ -11,7 +11,7 @@ void main()
         g=a+b;
         printf("%d",g);
     }
-     else if(c== '-')
+    else if(c== '-')
     {
         g=a-b;
         printf("%d",g);
