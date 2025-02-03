@@ -11,4 +11,8 @@ void main()
     {
         printf("True");
     }
+    if(a==1)
+    {
+        printf("True");
+    }
 }  
