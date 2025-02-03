@@ -13,6 +13,25 @@ void main()
         {
             g=a+b;
             printf("%d",g);
+            break;
+        }
+        case '-':
+        {
+            g=a-b;
+            printf("%d",g);
+            break;
+        }
+        case '*':
+        {
+            g=a*b;
+            printf("%d",g);
+            break;
+        }
+        case '/':
+        {
+            g=a/b;
+            printf("%d",g);
+            break;
         }
     }
 
