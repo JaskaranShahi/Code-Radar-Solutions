@@ -10,6 +10,6 @@ void main()
     }
     else
     {
-        primtf("No");
+        printf("No");
     }
 }
