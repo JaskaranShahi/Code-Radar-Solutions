@@ -15,4 +15,11 @@ void main()
     {
         printf("%d",c);
     }
+    if(a==b)
+    {
+        if(b==c)
+        {
+            printf("%d",c)
+        }
+    }
 }
