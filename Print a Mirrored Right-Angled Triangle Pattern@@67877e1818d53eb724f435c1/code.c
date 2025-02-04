@@ -13,6 +13,6 @@ void main()
         {
             printf("* ");
         }
-        peintf("\n");
+        printf("\n");
     }
 }
