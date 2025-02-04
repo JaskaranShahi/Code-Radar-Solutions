@@ -4,12 +4,17 @@ void main()
 {
     int c;
     scanf("%d",&c);
-    for(char i='A';i<='Z';i++)
+    for(int i=0;i<=n;i++)
     {
-        for(char j='A';j<=c;j++)
+        for(char i='A';i<='Z';i++)
         {
-            printf(" %c",j);
-        }
+            for(char j='A';j<=c;j++)
+            {
+                printf(" %c",j);
+            }
         printf("\n");
+        }
+    
+
     }
 }
