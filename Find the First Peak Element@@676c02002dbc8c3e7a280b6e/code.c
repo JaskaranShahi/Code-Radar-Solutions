@@ -2,11 +2,11 @@
 void main()
 {
     int n;
-    int a[];
     scanf("%d",&n);
+    int a[n];
     for(int i =0;i<n;i++)
     {
-        a[i]=scanf("%d",&a);
+        scanf("%d",&a[i]);
     }
     for(int i =0;i<n;i++)
     {
