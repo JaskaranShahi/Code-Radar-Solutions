@@ -1,19 +1,20 @@
 #include <stdio.h>
 
-int main() {
+void main()
+{
     int a;
     scanf("%d", &a);
-
-    if (a == 0) {
-        printf("-1\n"); // If the number is 0, there's no set bit.
-    } else {
-        int position = 0;
-        while ((a & 1) == 0) {
+    if (a == 0)
+    {
+        printf("-1\n");
+    } else
+    {
+        int p = 0;
+        while ((a & 1) == 0)
+        {
             a >>= 1;
-            position++;
+            p++;
         }
-        printf("%d\n", position);
+        printf("%d\n", p);
     }
-
-    return 0;
 }
