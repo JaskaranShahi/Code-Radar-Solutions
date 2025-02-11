@@ -18,7 +18,7 @@ int main()
         }
     }
 
-    printf("Number of trailing zeros: %d\n", count);
+    printf("%d\n", count);
 
     return 0;
 }
