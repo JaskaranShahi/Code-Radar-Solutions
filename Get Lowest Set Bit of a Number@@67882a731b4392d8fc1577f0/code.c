@@ -4,11 +4,16 @@ int main() {
     int a;
     scanf("%d", &a);
 
-    int lowestSetBit = a & -a;
-
-    printf("%d\n", lowestSetBit);
+    if (a == 0) {
+        printf("-1\n"); // If the number is 0, there's no set bit.
+    } else {
+        int position = 0;
+        while ((a & 1) == 0) {
+            a >>= 1;
+            position++;
+        }
+        printf("%d\n", position);
+    }
 
     return 0;
 }
-
-
