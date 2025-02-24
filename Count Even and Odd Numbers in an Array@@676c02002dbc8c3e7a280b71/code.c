@@ -12,7 +12,7 @@ void main()
     }
     for(int i=0;i<n;i++)
     {
-        if(a[i] %2 == 0)
+        if((a[i]%2 )== 0)
         {
             e=e+1;
         }
