@@ -4,11 +4,11 @@ void main()
     int n;
     int e=0;
     int o=0;
-    int a[n];
     scanf("%d",&n);
+    int a[n];
     for(int i=0;i<n;i++)
     {
-        a[i]=scanf("%d",a[i]);
+        a[i]=scanf("%d",&a[i]);
     }
     for(int i=0;i<n;i++)
     {
