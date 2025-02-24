@@ -21,5 +21,6 @@ void main()
             o=o+1;
         }
     }
-    printf("%d %d",e,o);
+    printf("%d",e);
+    printf("%d",o);
 }
