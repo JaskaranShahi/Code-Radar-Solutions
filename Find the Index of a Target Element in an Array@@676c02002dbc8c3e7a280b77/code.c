@@ -15,6 +15,7 @@ void main()
         if(a[i]==num)
         {
             z=i;
+            break;
         }
         else
         {
