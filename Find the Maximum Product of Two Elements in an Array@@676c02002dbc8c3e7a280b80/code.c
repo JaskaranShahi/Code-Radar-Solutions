@@ -24,9 +24,9 @@ void main()
         {
             if (abs(a[j]) > abs(a[j + 1]))
             {
-                max = a[j];
-                a[j] = a[j + 1];
-                a[j + 1] = max;
+                max = abs(a[j]);
+                abs(a[j]) = abs(a[j + 1]);
+                abs(a[j + 1]) = max;
             }
         }
     }
@@ -34,11 +34,7 @@ void main()
     p = a[n - 1] * a[n - 2];
     int p2 = a[0] * a[1];
 
-    if (n==5)
-    {
-        printf("5");
-    }
-    else if (p > p2)
+    if (p > p2)
     {
         printf("%d", p);
     }
