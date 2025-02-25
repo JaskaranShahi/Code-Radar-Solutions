@@ -26,7 +26,15 @@ void main()
             }
         }
     }
-    p=a[n-2]*a[n-1];
-    printf("%d",p);
+    if(a[n-2]==a[n-1])
+    {
+        p=a[n-1]*a[n-3];
+        printf("%d",p);
+    }
+    else
+    {
+        p=a[n-2]*a[n-1];
+        printf("%d",p);
+    }
 }
 
