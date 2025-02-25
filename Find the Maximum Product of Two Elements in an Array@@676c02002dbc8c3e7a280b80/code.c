@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
-
 void main()
 {
     int n, max, p;
@@ -22,7 +20,7 @@ void main()
     {
         for (int j = 0; j < n - i - 1; j++)
         {
-            if (a[j] > a[j + 1])  // Sort in increasing order
+            if (a[j] > a[j + 1])  
             {
                 max = a[j];
                 a[j] = a[j + 1];
@@ -31,16 +29,16 @@ void main()
         }
     }
 
-    p = a[n - 1] * a[n - 2];  // Product of two largest numbers
-    int p2 = a[0] * a[1];      // Product of two smallest numbers
+    p = a[n - 1] * a[n - 2]; 
+    int p2 = a[0] * a[1];    
 
     if (p > p2)
     {
-        printf("%d", p);  // Larger product
+        printf("%d", p);  
     }
     else
     {
-        printf("%d", p2);  // Larger product
+        printf("%d", p2);  
     }
 }
 
