@@ -13,6 +13,7 @@ void main()
         if(a[i]==a[n-1])
         {
             printf("YES");
+            break;
         }
     }
 }
