@@ -26,7 +26,7 @@ void main()
             }
         }
     }
-    p=a[n]*a[n-1];
+    p=a[n-2]*a[n-1];
     printf("%d",p);
 }
 
