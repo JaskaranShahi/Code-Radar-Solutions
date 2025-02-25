@@ -18,7 +18,7 @@ void main()
             }
         }
     }
-    if(c==5)
+    if(c==n)
     {
         printf("Sorted");
     }
