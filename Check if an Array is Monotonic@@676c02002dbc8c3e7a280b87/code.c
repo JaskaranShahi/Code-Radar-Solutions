@@ -24,10 +24,10 @@ void main()
     }
     if(i && d)
     {
-        printf("YES");
+        printf("NO");
     }
     else
     {
-        printf("NO");
+        printf("YES");
     }
 }
