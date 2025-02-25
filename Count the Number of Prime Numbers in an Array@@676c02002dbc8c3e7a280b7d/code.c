@@ -25,5 +25,5 @@ void main()
             d=d+1;
         }
     }
-    printf("%d",&d);
+    printf("%d",d);
 }
