@@ -13,7 +13,7 @@ void main()
     for(int i=0;i<n;i++)
     {
         int num=a[i];
-        while(num>0)
+        while(num!=0)
         {
             int z=num%10;
             s=s+z;
