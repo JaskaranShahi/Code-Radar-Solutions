@@ -5,6 +5,7 @@ void main()
     int max=0;
     scanf("%d",&n);
     int a[n];
+    int c=0;
     for(int i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -16,8 +17,13 @@ void main()
             if(a[i]>max)
             {
                 max=a[i];
+                c++;
             }
         }
+        if(c>0)
+        (
+            max=max;
+        )
         else
         {
             max=-1;
