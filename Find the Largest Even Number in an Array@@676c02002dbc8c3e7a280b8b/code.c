@@ -30,9 +30,6 @@ void main()
     {
         max=max;
     }
-    else
-    {
-        printf("%d",max);
-    }
+    printf("%d",max);
 
 } 
