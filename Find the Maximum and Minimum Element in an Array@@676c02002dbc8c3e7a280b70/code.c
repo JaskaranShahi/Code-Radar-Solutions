@@ -5,11 +5,6 @@ void main()
     int n, max;
     scanf("%d", &n);
     int a[n];
-    if (n == 1)
-    {
-        printf("-1");
-        return;
-    }
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &a[i]);
