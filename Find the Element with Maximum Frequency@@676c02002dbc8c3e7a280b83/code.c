@@ -26,5 +26,5 @@ void main()
             c=0;
         }
     }
-    printf("%d",max);
+    printf("%d",x);
 }
