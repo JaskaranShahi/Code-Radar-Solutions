@@ -14,6 +14,7 @@ void main()
     {
         while(a[i]>0)
         {
+            m=0;
             x=a[i];
             int z=a[i]%10;
             m=m*10+z;
