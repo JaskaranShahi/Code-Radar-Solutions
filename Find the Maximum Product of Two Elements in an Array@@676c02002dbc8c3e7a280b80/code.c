@@ -24,9 +24,9 @@ void main()
         {
             if (abs(a[j]) > abs(a[j + 1]))
             {
-                max = abs(a[j]);
-                abs(a[j]) = abs(a[j + 1]);
-                abs(a[j + 1]) = max;
+                max = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = max;
             }
         }
     }
