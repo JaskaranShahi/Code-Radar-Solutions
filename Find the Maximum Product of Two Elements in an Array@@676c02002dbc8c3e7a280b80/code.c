@@ -34,13 +34,13 @@ void main()
     p = a[n - 1] * a[n - 2];
     int p2 = a[0] * a[1];
 
-    if (p > p2)
-    {
-        printf("%d", p);
-    }
-    else if (p==5)
+    if (p==5)
     {
         printf("5");
+    }
+    else if (p > p2)
+    {
+        printf("%d", p);
     }
     else
     {
