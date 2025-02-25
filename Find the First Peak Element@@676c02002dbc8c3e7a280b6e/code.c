@@ -17,7 +17,7 @@ void main()
             break;
         }
     }
-    printf("%d",&max);
+    printf("%d",max);
 
     
 
