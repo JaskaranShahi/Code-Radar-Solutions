@@ -28,7 +28,7 @@ void main()
     }
     if(a[0]==a[1])
     {
-        printf("-1");
+        printf(a[2]);
     }
     else
     {
