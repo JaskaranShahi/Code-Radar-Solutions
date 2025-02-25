@@ -19,8 +19,8 @@ void main()
             {
                 c=c+1;
             }
-            c++;
         }
+        c++;
         if(c>max)
         {
             max=c;
