@@ -38,6 +38,10 @@ void main()
     {
         printf("%d", p);
     }
+    else if (p==5)
+    {
+        printf("5");
+    }
     else
     {
         printf("%d", p);
