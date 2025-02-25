@@ -21,9 +21,9 @@ void main()
             }
         }
         if(c>0)
-        (
+        {
             max=max;
-        )
+        }
         else
         {
             max=-1;
