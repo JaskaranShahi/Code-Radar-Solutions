@@ -22,7 +22,7 @@ void main()
     {
         for (int j = 0; j < n - i - 1; j++)
         {
-            if (abs(a[j]) > abs(a[j + 1]))
+            if (a[j] > a[j + 1])  // Sort in increasing order
             {
                 max = a[j];
                 a[j] = a[j + 1];
@@ -31,16 +31,17 @@ void main()
         }
     }
 
-    p = a[n - 1] * a[n - 2];
-    int p2 = a[0] * a[1];
+    p = a[n - 1] * a[n - 2];  // Product of two largest numbers
+    int p2 = a[0] * a[1];      // Product of two smallest numbers
 
     if (p > p2)
     {
-        printf("%d", p);
+        printf("%d", p);  // Larger product
     }
     else
     {
-        printf("%d", p);
+        printf("%d", p2);  // Larger product
     }
 }
+
 
