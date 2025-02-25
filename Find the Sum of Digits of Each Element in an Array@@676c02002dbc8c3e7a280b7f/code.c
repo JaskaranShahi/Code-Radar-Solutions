@@ -12,7 +12,11 @@ void main()
     }
     for(int i=0;i<n;i++)
     {
-        int num=abs(a[i]);
+        int num=a[i];
+        if(num<0)
+        {
+            num=-num;
+        }
         while(num!=0)
         {
             int z=num%10;
