@@ -4,6 +4,7 @@ void main()
 {
     int n;
     int max=0;
+    int c=0;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
@@ -17,6 +18,7 @@ void main()
             if(a[i]>max)
             {
                 max=a[i];
+                c++;
             }
         }
         else
@@ -24,6 +26,13 @@ void main()
             max=-1;
         }
     }
-    printf("%d",max);
+    if(c>0)
+    {
+        max=max;
+    }
+    else
+    {
+        printf("%d",max);
+    }
 
 } 
