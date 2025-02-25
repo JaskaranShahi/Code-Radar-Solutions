@@ -15,5 +15,9 @@ void main()
             printf("YES");
             break;
         }
+        else
+        {
+            printf("NO");
+        }
     }
 }
