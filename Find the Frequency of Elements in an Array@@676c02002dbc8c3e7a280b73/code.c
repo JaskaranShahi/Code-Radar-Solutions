@@ -21,5 +21,6 @@ void main()
         }
         printf("%d %d",a[i],c);
         c=0;
+        printf("\n");
     }
 }
