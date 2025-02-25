@@ -21,11 +21,6 @@ void main()
             }
         }
     }
-    if(n==1)
-    {
-        printf("%d ",a[0]);
-        printf("%d ",a[0]);
-    }
     printf("%d ",a[0]);
     printf("%d",a[n-1]);
 }
