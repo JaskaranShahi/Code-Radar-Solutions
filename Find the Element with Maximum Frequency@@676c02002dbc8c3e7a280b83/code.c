@@ -19,7 +19,7 @@ void main()
                 c=c+1;
             }
         }
-        if(c>max)
+        if(c>=max)
         {
             max=c;
             x=a[i];
