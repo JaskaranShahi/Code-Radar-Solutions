@@ -18,7 +18,7 @@ void main()
     {
         for (int j = 0; j < n - i - 1; j++)
         {
-            if (a[j] > a[j + 1])
+            if (abs(a[j]) > abs(a[j + 1]))
             {
                 max = a[j];
                 a[j] = a[j + 1];
