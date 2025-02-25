@@ -27,7 +27,7 @@ void main()
         }
         if(c==max)
         {
-            x=a[i];
+            x=a[0];
             c=0;
         }
     }
