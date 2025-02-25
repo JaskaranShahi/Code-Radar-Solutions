@@ -1,30 +1,19 @@
 #include<stdio.h>
-void main()
-{
-    int n,j;
-    scanf("%d",&n);
+
+void main() {
+    int n, j, k;
+    scanf("%d", &n);
     int a[n];
-    for(int i=0;i<n;i++)
-    {
-        scanf("%d",&a[n]);
+    
+    for(int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
     }
-    int k;
-    scanf("%d",&k);
-    for(int i=0;i<k;i++)
-    {
-        j=i+3;
-        if(j>n)
-        {
-            j=j-n;
-            a[j]=a[i];
-        }
-        else
-        {
-            a[j]=a[n];
-        }
-    }
-    for(int i=0;i<n;i++)
-    {
-        printf("%d ",a[n]);
+
+    scanf("%d", &k);
+    
+    // Shifting elements
+    for(int i = 0; i < n; i++) {
+        j = (i + k) % n;  // Shift the index by k positions, wrapping around using modulo
+        printf("%d ", a[j]);
     }
 }
