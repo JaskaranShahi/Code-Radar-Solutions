@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 void main()
 {
     int n;
@@ -12,9 +13,9 @@ void main()
     }
      for(int i=0;i<n;i++)
     {
-        if(a[i]%2==0)
+        if(abs(a[i])%2==0)
         {
-            if(a[i]>max)
+            if(abs(a[i])>max)
             {
                 max=a[i];
                 c++;
