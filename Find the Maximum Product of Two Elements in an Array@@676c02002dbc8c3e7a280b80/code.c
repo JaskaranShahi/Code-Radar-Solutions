@@ -28,7 +28,7 @@ void main()
     }
     if(a[n-2]==a[n-1])
     {
-        p=a[n-1]*a[n-4];
+        p=a[n-1]*a[n-3];
         printf("%d",p);
     }
     else
