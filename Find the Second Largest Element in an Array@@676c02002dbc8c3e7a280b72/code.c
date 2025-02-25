@@ -10,13 +10,13 @@ void main()
     }
     for(int i=0;i<n;i++)
     {
-        for(int i=1;i<i;i++)
+        for(int j=1;j<i;j++)
         {
             if(a[i]>a[j])
             {
                 max=a[i];
-                a[i]=a[i+1];
-                a[i+1]=max;
+                a[i]=a[j];
+                a[j]=max;
 
             }
         }
