@@ -16,7 +16,7 @@ void main()
             c=c+1;
         }
     }
-    if(c==n)
+    if(c==n-1)
     {
         printf("YES");
     }
