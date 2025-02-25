@@ -40,7 +40,7 @@ void main()
     }
     else
     {
-        printf("%d", p2);
+        printf("%d", p);
     }
 }
 
