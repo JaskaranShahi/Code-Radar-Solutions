@@ -1,26 +1,27 @@
-#include<stdio.h>
-
-void main() {
-    int n, k;
-    scanf("%d", &n);
+#include <stdio.h>
+int main() {
+    int n;
+    scanf("%d",&n);
     int a[n];
-    
-    // Input array elements
-    for(int i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
+    for(int s=0;s<n;s++){
+        scanf("%d",&a[s]);
     }
-    
-    // Input number of rotations
-    scanf("%d", &k);
-    
-    // Normalize k to avoid unnecessary full rotations
-    k = k % n;  // If k is larger than n, reduce it
-    
-    // Array rotation logic: Print the rotated array
-    for(int i = 0; i < n; i++) {
-        // Calculate the new index after rotation
-        int newIndex = (i + k) % n;
-        printf("%d ", a[newIndex]);
+    int x;
+    scanf("%d",&x);
+    while(x>0){
+        int q=n-2;
+        for(int s=n-1;s>0;s--){
+            int t=a[s];
+            a[s]=a[q];
+            a[q]=t;
+            q--;
+        }
+        x--;
     }
+    for(int s=0;s<n;s++){
+        printf("%d\n",a[s]);
+    }
+
+    return 0;
 }
 
