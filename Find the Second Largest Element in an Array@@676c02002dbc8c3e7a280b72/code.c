@@ -10,12 +10,15 @@ void main()
     }
     for(int i=0;i<n;i++)
     {
-        if(a[i]>a[i+1])
+        for(int i=1;i<i;i++)
         {
-            max=a[i];
-            a[i]=a[i+1];
-            a[i+1]=max;
+            if(a[i]>a[j])
+            {
+                max=a[i];
+                a[i]=a[i+1];
+                a[i+1]=max;
 
+            }
         }
     }
     printf("%d",a[n-2]);
