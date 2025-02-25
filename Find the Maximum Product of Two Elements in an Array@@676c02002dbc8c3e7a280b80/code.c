@@ -34,7 +34,7 @@ void main()
     p = a[n - 1] * a[n - 2];
     int p2 = a[0] * a[1];
 
-    if (p >= p2)
+    if (p > p2)
     {
         printf("%d", p);
     }
@@ -43,3 +43,4 @@ void main()
         printf("%d", p2);
     }
 }
+
