@@ -2,26 +2,24 @@
 void main()
 {
     int n;
-    int max=0;
+    int max;
     scanf("%d",&n);
     int a[n];
-    int b[n];
     for(int i =0;i<n;i++)
     {
         scanf("%d",&a[i]);
-        
     }
-    for(int i =0;i<n;i++)
+    for(int i=0;i<n-1;i++)
     {
-        if(a[i]>a[n+1])
+        if(a[i]>a[i+1])
         {
-            b[i]=a[i];
+            max=a[i];
+            break;
         }
     }
-    for(int i=0;i<n;i++)
-    {
-        printf("%d",&b[i]);
-    }
+    printf("%d",&max);
+
+    
 
     
 }
