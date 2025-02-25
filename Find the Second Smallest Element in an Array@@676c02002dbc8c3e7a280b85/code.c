@@ -26,11 +26,5 @@ void main()
             }
         }
     }
-    if (a[0] == a[1])
-    {
-        printf("-1");
-    } else
-    {
-        printf("%d", a[1]);
-    }
+    printf("%d", a[1]);
 }
