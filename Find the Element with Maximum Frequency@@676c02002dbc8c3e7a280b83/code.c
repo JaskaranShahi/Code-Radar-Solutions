@@ -25,11 +25,6 @@ void main()
             x=a[i];
             c=0;
         }
-        if(c==max)
-        {
-            x=a[0];
-            c=0;
-        }
     }
     printf("%d",x);
 }
