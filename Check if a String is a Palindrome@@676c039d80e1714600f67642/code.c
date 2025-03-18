@@ -12,7 +12,7 @@ void main()
         x[j]=a[i];
         j++;
     }
-    if(x==a)
+    if(strcmp(a, x) == 0)
     {
         printf("Yes");
     }
