@@ -5,9 +5,9 @@ void main()
     char a[100];
     int l,c;
     fgets(a, sizeof(a), stdin);
-    length = strlen(str);
+    l = strlen(a);
     c = 0;
-    for(i =0; i<length; i++)
+    for(int i =0; i<l; i++)
     {
         char b=a[i];
         if(b=='a' || b=='e'||b=='i'||b=='o'||b=='u'|b=='A' || b=='E'||b=='I'||b=='O'||b=='U')
