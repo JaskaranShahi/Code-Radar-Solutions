@@ -6,7 +6,7 @@ void main()
     fgets(a,sizeof(a),stdin);
     int l=strlen(a);
     fgets(b,sizeof(b),stdin);
-    int m=strlen(m);
+    int m=strlen(b);
     strcat(a,b);
     printf("%s",a);
 }
