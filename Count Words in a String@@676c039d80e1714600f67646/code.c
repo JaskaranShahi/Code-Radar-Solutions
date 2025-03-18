@@ -20,5 +20,5 @@ void main()
             continue;
         }
     }
-    printf("%d",s);
+    printf("%d",s+1);
 }
