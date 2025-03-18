@@ -14,7 +14,7 @@ int main() {
         j++;
     }
 
-    //x[j] = '\0'; 
+    x[j] = '\0'; 
     printf("%s", x);
 
     return 0;
