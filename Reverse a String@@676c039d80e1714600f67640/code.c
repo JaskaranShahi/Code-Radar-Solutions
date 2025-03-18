@@ -4,9 +4,6 @@
 int main() {
     char str[100], x[100];
     int length, i, j;
-
-    // Input the string from the user
-    printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
     // Remove newline character from the string (if any)
@@ -25,7 +22,7 @@ int main() {
     x[j] = '\0'; // Add null terminator to the reversed string
 
     // Output the reversed string
-    printf("Reversed string: %s\n", x);
+    printf("%s", x);
 
     return 0;
 }
