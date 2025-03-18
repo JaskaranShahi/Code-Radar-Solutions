@@ -4,6 +4,7 @@ void main()
 {
     char a[100];
     fgets(a,sizeof(a),stdin);
+    a=a+' ';
     int l=strlen(a);
     int s=0;
     for(int i=0;i<l;i++)
