@@ -1,24 +1,17 @@
 #include<stdio.h>
 #include<string.h>
-void main()
-{
+
+void main() {
     char a[100];
-    fgets(a,sizeof(a),stdin);
-    int l=strlen(a);
-    int s=0;
+    fgets(a, sizeof(a), stdin);
+    int l = strlen(a);
+    int s = 0;
     a[l] = ' ';    
     a[l + 1] = '\0';
-    for(int i=0;i<l;i++)
-    {
-        char c=a[i];
-        if(c==' ')
-        {
-            s=s+1;
-        }
-        else
-        {
-            continue;
+    for(int i = 0; i < l; i++) {
+        if(a[i] != ' ' && (i == 0 || a[i-1] == ' ')) {
+            s++;
         }
     }
-    printf("%d",s+1);
+    printf("%d", s);
 }
