@@ -4,9 +4,10 @@ void main()
 {
     char a[100];
     fgets(a,sizeof(a),stdin);
-    a=a+' ';
     int l=strlen(a);
     int s=0;
+    a[l] = ' ';    
+    a[l + 1] = '\0';
     for(int i=0;i<l;i++)
     {
         char c=a[i];
