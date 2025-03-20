@@ -24,7 +24,7 @@ int main()
         
     }
     s=avg/n;
-    printf("Total marks: %.2f\n",avg);
+    printf("Total Marks: %.2f\n",avg);
     printf("Average Marks: %.2f",s);
 
     return 0;
