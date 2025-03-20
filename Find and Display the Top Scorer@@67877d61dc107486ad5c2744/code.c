@@ -13,7 +13,7 @@ int main()
     scanf("%d", &n);
     struct Student st[n];
     float max = 0;
-    int top_scorer_index = 0;
+    int s = 0;
 
     for (int i = 0; i < n; i++)
     {
@@ -21,11 +21,11 @@ int main()
         if(st[i].marks > max)
         {
             max = st[i].marks;
-            top_scorer_index = i;
+            s = i;
         }
     }
     
-    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n", st[top_scorer_index].roll, st[top_scorer_index].name, st[top_scorer_index].marks);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n", st[s].roll, st[s].name, st[s].marks);
 
     return 0;
 }
