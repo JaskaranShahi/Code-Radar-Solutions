@@ -13,11 +13,10 @@ int main()
     scanf("%d", &n);
     struct Student st[n];
     int c = 0;
-
+    float t;
     for (int i = 0; i < n; i++)
     {
         scanf("%d %s %f", &st[i].roll, st[i].name, &st[i].marks);
-        float t;
         scanf("%f", &t);
         if(st[i].marks > t)
         {
