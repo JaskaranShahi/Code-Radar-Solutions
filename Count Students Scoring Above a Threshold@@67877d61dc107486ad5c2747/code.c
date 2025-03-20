@@ -12,9 +12,7 @@ int main()
     int n;
     scanf("%d", &n);
     struct Student st[n];
-    float t;
     int c = 0;
-    scanf("%f", &t);
 
     for (int i = 0; i < n; i++)
     {
@@ -24,6 +22,9 @@ int main()
             c = c + 1;
         }
     }
+    float t;
+    scanf("%f", &t);
+
     
     printf("Count of students scoring above %.0f: %d\n", t, c);
 
