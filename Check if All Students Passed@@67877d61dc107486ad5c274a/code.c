@@ -15,8 +15,7 @@ int main() {
         scanf("%d %s %f", &students[i].roll, students[i].name, &students[i].marks);
     }
 
-    float k;
-    scanf("%f", &k);
+    float k=50;
 
     int allPassed = 1;
     for(int s = 0; s < n; s++) {
