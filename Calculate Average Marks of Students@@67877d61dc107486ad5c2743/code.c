@@ -23,7 +23,7 @@ int main()
         avg=avg+st[i].marks;
         
     }
-    printf("Average marks: .2f",avg);
+    printf("Average marks: %.2f",avg);
 
     return 0;
 }
