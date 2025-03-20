@@ -12,7 +12,6 @@ int main()
     int n;
     scanf("%d", &n);
     struct Student st[n];
-    float avg = 0;
     float t;
     int c = 0;
     scanf("%f", &t);
@@ -30,3 +29,4 @@ int main()
 
     return 0;
 }
+
