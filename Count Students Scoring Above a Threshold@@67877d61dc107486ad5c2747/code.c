@@ -13,19 +13,20 @@ int main()
     scanf("%d", &n);
     struct Student st[n];
     float avg = 0;
-    float s;
     float t;
-    int c=0;
-    scanf("%d",&t);
+    int c = 0;
+    scanf("%f", &t);
+
     for (int i = 0; i < n; i++)
     {
         scanf("%d %s %f", &st[i].roll, st[i].name, &st[i].marks);
-        if(st[i].marks>t)
+        if(st[i].marks > t)
         {
-            c=c+1;
+            c = c + 1;
         }
     }
-    printf("Count of students scoring above %d: %c",c);
+    
+    printf("Count of students scoring above %.2f: %d\n", t, c);
 
     return 0;
 }
