@@ -12,24 +12,29 @@ int main()
     int n;
     scanf("%d", &n);
     struct Student st[n];
-    float max = 0;
    
     for (int i = 0; i < n; i++)
     {
         scanf("%d %s %f", &st[i].roll, st[i].name, &st[i].marks);
     }
+    
     int r;
-    scanf("%d",&r);
-    for(int i=0;i<n;i++)
+    scanf("%d", &r);
+    int found = 0; 
+
+    for(int i = 0; i < n; i++)
     {
-        if(r==st[i].roll)
+        if(r == st[i].roll)
         {
             printf("Roll Number: %d, Name: %s, Marks: %.2f\n", st[i].roll, st[i].name, st[i].marks);
+            found = 1; 
+            break; 
         }
-        else
-        {
-            printf("Student not found");
-        }
+    }
+
+    if (!found)  
+    {
+        printf("Student not found\n");
     }
 
     return 0;
