@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-struct student
+struct students
 {
     int roll;
     char name[99];
