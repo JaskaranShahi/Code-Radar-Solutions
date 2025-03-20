@@ -20,7 +20,7 @@ int main() {
     scanf("%f", &k);
 
     for(int s = 0; s < n; s++) {
-        if(students[s].marks > k) {
+        if(students[s].marks >= k) {
             x++;
         }
     }
