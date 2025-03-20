@@ -13,7 +13,7 @@ int main()
     scanf("%d", &n);
     struct Student st[n];
     float avg = 0;
-
+    float s;
     for (int i = 0; i < n; i++)
     {
         scanf("%d %s %f", &st[i].roll, st[i].name, &st[i].marks);
@@ -23,7 +23,8 @@ int main()
         avg=avg+st[i].marks;
         
     }
-    printf("Average marks: %.2f",avg);
+    s=avg/n;
+    printf("Average marks: %.2f",s);
 
     return 0;
 }
