@@ -20,8 +20,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n", st[i].roll, st[i].name, st[i].marks);
-        printf("\n");
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n", st[i].roll, st[i].name, st[i].marks);
     }
 
     return 0;
