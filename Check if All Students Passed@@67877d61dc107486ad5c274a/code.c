@@ -16,16 +16,17 @@ int main() {
     }
 
     float k;
-    int x = 0;
     scanf("%f", &k);
 
+    int allPassed = 1;
     for(int s = 0; s < n; s++) {
-        if(students[s].marks >= k) {
-            x++;
+        if(students[s].marks < k) {
+            allPassed = 0;
+            break;
         }
     }
 
-    if(x == n) {
+    if(allPassed) {
         printf("All Passed");
     } else {
         printf("Not All Passed");
@@ -33,3 +34,4 @@ int main() {
 
     return 0;
 }
+
