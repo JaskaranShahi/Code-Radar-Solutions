@@ -17,6 +17,6 @@ void main()
     {
         int m=n/2;
         int c=(a[m-1]+a[m])/2;
-        printf("%d",a[c]);
+        printf("%d",c);
     }
 }
