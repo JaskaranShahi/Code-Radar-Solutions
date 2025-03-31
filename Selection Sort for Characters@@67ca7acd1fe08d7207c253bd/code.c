@@ -14,7 +14,7 @@ char selectionSort(char a[],int n)
     
         if(min != i)
         {
-            int temp = a[i];
+            char temp = a[i];
             a[i] = a[min];
             a[min] = temp;
         }
@@ -25,6 +25,6 @@ int printArray(char arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
-        printf("%d ",char(arr[i]));
+        printf("%d ",arr[i]);
     }
 }
