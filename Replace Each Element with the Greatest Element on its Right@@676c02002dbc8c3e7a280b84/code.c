@@ -8,22 +8,22 @@ void main()
     {
         scanf("%d", &a[i]);
     }
-    for(int i=0;i<n;i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        for(int j=i+1;j<n;j++)
+        int max = -1;
+        for (int j = i + 1; j < n; j++)
         {
-            if(a[j]>a[i])
+            if (a[j] > max)
             {
-                a[i]=a[j];
-                j++;
+                max = a[j];
             }
-
-
         }
+        a[i] = max;
     }
-    a[n-1]=-1;
-    for(int i=0;i<n;i++)
+    a[n - 1] = -1;
+    for (int i = 0; i < n; i++)
     {
-        printf("%d ",a[i]);
+        printf("%d ", a[i]);
     }
 }
+
