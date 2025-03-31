@@ -11,6 +11,6 @@ void main()
     if(n%2!=0)
     {
         int c=(n+1)/2;
-        printf("%d",a[c]);
+        printf("%d",a[c-1]);
     }
 }
