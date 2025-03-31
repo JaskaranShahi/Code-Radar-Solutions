@@ -11,7 +11,7 @@ void main()
     }
     for(int i=0;i<n;i++)
     {
-        if(a[i]%2==0)
+        if(abs(a[i])%2==0)
         {
             if(a[i]>max)
             {
