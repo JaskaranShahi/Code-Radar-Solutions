@@ -23,7 +23,7 @@ void main()
                 break;
             }
         }
-        if (c)
+        if (c!=0)
         {
             b[y] = a[i];
             y++;
