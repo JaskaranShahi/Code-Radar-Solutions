@@ -7,10 +7,10 @@ int binarySearch(int a,int num,int t)
     while(start<=end)
     {
         mid=(start+end)/2;
-        if(num==a[mid]){
+        if(t==a[mid]){
             return mid;
         }
-        else if(num<a[mid]){
+        else if(t<a[mid]){
             end=mid-1;
         }
         else
