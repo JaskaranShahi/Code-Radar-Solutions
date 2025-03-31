@@ -26,6 +26,7 @@ int main() {
                 s = m;
                 x = a[i];
                 y = a[j];
+                break;
             }
         }
     }
