@@ -36,5 +36,9 @@ int main() {
     {
         printf("%d %d\n",x,y);
     }
+    if(x==y)
+    {
+       printf("%d %d\n",x,y); 
+    }
     return 0;
 }
