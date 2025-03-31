@@ -1,18 +1,17 @@
 #include <stdio.h>
-
-void main()
-{
+int main() {
     int n;
     scanf("%d", &n);
     int a[n];
 
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
 
     int m;
     scanf("%d", &m);
+
+    int c=0;
 
     for (int i = 0; i < n; i++)
     {
@@ -20,8 +19,15 @@ void main()
         {
             if (a[i] + a[j] == m)
             {
-                printf("%d %d\n", a[i], a[j]);
+                if (c == 0 || a[i] != a[i - 1])
+                {
+                    printf("%d %d\n", a[i], a[j]);
+                }
+                c = 1;
             }
         }
     }
+
+    return 0;
 }
+
