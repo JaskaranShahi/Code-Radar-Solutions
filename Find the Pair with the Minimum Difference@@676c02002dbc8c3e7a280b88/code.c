@@ -6,39 +6,30 @@ int main() {
     scanf("%d", &n);
 
     if (n < 2) {
-        printf("-1");
+        printf("-1\n");
         return 1;
     }
 
     int a[n];
-    int x, y;
-
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
 
-    int s = 1000000;
+    int s = abs(a[0] - a[1]); // Initialize with the first two elements' difference
+    int x = a[0], y = a[1];
 
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             int m = abs(a[i] - a[j]);
-            if (m <= s) {
+            if (m < s) {
                 s = m;
                 x = a[i];
                 y = a[j];
             }
         }
     }
-    if(x>y){
-    printf("%d %d\n", y, x);
-    }
-    if(y>x)
-    {
-        printf("%d %d\n",x,y);
-    }
-    if(x==y)
-    {
-       printf("%d %d\n",x,y); 
-    }
+
+    printf("%d %d\n", x < y ? x : y, x > y ? x : y);
     return 0;
 }
+
