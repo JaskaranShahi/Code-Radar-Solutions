@@ -1,33 +1,33 @@
 #include <stdio.h>
 int main() {
     int n;
-    scanf("%d", &n);
+    scanf("%d",&n);
     int a[n];
-
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
+    for(int s=0;s<n;s++){
+        scanf("%d",&a[s]);
     }
-
-    int m;
-    scanf("%d", &m);
-
-    int c=0;
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = i + 1; j < n; j++)
-        {
-            if (a[i] + a[j] == m)
-            {
-                if (c == 0 || a[i] != a[i - 1])
-                {
-                    printf("%d %d\n", a[i], a[j]);
+    int k;
+    scanf("%d",&k);
+    int q=0;
+    for(int s=0;s<n;s++){
+        for(int j=s+1;j<n;j++){
+            if(s==j){
+                continue;
+            }
+            else if(q>0){
+                continue;
+            }
+            else if(a[s]==a[j]){
+                printf("%d %d\n",a[s],a[j]);
+                q++;
+                break;
+            }
+            else{
+                if((a[s]+a[j])==k){
+                    printf("%d %d\n",a[s],a[j]);
                 }
-                c = 1;
             }
         }
     }
-
     return 0;
 }
-
