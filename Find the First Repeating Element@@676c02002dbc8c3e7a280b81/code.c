@@ -21,6 +21,10 @@ void main() {
                 break;
             }
         }
+        if(c!=-1)
+        {
+            break;
+        }
         
     }
 
