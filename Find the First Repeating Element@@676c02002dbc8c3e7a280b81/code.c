@@ -16,9 +16,10 @@ void main()
             if(a[i]==a[j])
             {
                 c=a[i];
+                printf("%d",c);
                 break;
             }
         }
     }
-    printf("%d",c);
+    
 }
