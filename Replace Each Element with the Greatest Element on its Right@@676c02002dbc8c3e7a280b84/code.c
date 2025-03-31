@@ -15,6 +15,7 @@ void main()
             if(a[j]>a[i])
             {
                 a[i]=a[j];
+                i++;
             }
 
 
