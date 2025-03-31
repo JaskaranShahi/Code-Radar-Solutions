@@ -1,5 +1,5 @@
 #include <stdio.h>
-char selectionSort(char arr[],int n)
+char selectionSort(char a[],int n)
 {
     for(int i = 0; i < n-1; i++)
     {
