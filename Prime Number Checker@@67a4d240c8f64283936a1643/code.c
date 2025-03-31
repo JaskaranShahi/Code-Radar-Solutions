@@ -9,7 +9,7 @@ int isPrime(int num)
             c++;
         }
     }
-    if(c>0)
+    if(c>2)
     {
         return 1;
     }
