@@ -20,7 +20,7 @@ void main()
             {
                 s=m;
                 x=a[i];
-                y=a[j;]
+                y=a[j];
             }
 
         }
