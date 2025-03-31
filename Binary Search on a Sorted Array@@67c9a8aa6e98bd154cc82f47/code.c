@@ -13,9 +13,12 @@ int binarySearch(int a[],int num,int t)
         else if(t<a[mid]){
             end=mid-1;
         }
-        else
+        else if(t>a[mid])
         {
             start=mid+1;
+        }
+        else{
+            return -1;
         }
     }
 }
