@@ -1,9 +1,9 @@
-isPrime(int a)
+isPrime(int num)
 {
     int c=0;
-    for(int i=0;i<=a;i++)
+    for(int i=0;i<=num;i++)
     {
-        if(a%i==0)
+        if(num%i==0)
         {
             c++;
         }
