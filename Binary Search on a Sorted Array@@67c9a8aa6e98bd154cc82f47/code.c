@@ -2,7 +2,7 @@
 int binarySearch(int a,int num,int t)
 {
     int start=0;
-    int end=n-1;
+    int end=num-1;
     int mid;
     while(start<=end)
     {
