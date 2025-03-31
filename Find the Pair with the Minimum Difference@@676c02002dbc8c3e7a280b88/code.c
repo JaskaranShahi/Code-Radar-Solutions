@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
 
     if (n < 2) {
-        printf("At least two numbers are required.\n");
+        printf("-1");
         return 1;
     }
 
@@ -29,7 +29,12 @@ int main() {
             }
         }
     }
-
-    printf("%d %d\n", x, y);
+    if(x>y){
+    printf("%d %d\n", y, x);
+    }
+    if(y>x)
+    {
+        printf("%d %d\n",x,y);
+    }
     return 0;
 }
