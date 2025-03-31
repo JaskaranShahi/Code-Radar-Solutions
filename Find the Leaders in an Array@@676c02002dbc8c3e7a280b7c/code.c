@@ -29,7 +29,7 @@ void main()
             x=0;
             if(c==0)
             {
-                b[y]a[n-1];
+                b[y]=a[n-1];
             }
         }
     }
