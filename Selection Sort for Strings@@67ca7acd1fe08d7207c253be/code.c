@@ -22,6 +22,6 @@ void selectionSort(char str[],int m) {
 int printArray(char str[],int n)
 {
     for(int i=0;i<n;i++){
-    printf("%s ",str(n));
+    printf("%s ",str[n]);
     }
 }
