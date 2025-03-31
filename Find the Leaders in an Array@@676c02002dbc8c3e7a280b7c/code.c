@@ -33,7 +33,7 @@ void main()
             }
         }
     }
-    for(int i=0;i<y;i++)
+    for(int i=0;i<y+1;i++)
     {
         printf("%d ",b[i]);
     }
