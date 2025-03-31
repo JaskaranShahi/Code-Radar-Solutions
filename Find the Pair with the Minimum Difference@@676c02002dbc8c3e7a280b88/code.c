@@ -13,7 +13,7 @@ void main()
     int s=100;
     for(int i=0;i<n;i++)
     {
-        for(int j=i+1;i<n;i++)
+        for(int j=i+1;j<n;j++)
         {
             int m=a[i]-a[j];
             if(abs(m)<s)
